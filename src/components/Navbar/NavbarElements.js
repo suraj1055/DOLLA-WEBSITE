@@ -6,7 +6,7 @@ import { Link as LinkS } from 'react-scroll';
 export const Nav = styled.nav`
     background: #000;
     height: 80px;
-    // margin-top: -80px;
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,7 @@ export const NavBtnLink = styled(LinkR)`
     text-decoration: none;
 
     &:hover{
-        transition: all 1s ease-in-out;
+        transition: all 0.3s ease-in;
         background: #fff;
         color: #010606;
     }
