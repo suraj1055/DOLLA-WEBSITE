@@ -34,7 +34,7 @@ export const ServicesWrapper = styled.div`
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
-`
+`;
 
 export const ServicesCard = styled.div`
     background: #fff;
@@ -53,13 +53,13 @@ export const ServicesCard = styled.div`
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
-`
+`;
 
 export const ServicesIcon = styled.img`
     height: 160px;
     widht: 160px;
     margin-bottom: 64px;
-`
+`;
 
 export const ServicesH1 = styled.h1`
     font-size: 2.5rem;
